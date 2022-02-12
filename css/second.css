@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    font-family: "Balsamiq Sans", cursive ;
+    font-weight: 400;
+}
+.content{
+    max-width: 1400px;
+    margin: 40px auto 0;
+    background: rgb(246, 242, 242);
+}
+.background_color{
+    margin: 40px auto 50px;
+    background: darkgray;
+    border: 3px solid cadetblue;
+    font-size: 30px;
+}
+.background_image{
+    margin: 0 0 50px 0;
+    overflow: auto;
+    max-height: 400px;
+    padding: 35px 30px;
+    background: radial-gradient(circle, rgba(8,241,234,0.639093137254902) 3%, rgba(218,105,202,0.40940126050420167) 55%, rgba(218,105,202,0.40940126050420167) 70%);  ;
+    text-align: justify;
+    background-origin: content-box;
+    border: 4px dashed rgb(245, 3, 3);
+   
+}
+.background_image span{
+    font-size: 50px;    
+	background-repeat: no-repeat;
+	background-position: center bottom 4px;
+	background-size: 100% 9px;
+	background-image: linear-gradient(to right, rgb(233, 36, 1), rgb(67, 70, 255));    
+    line-height: 1.6;
+    
+}
+.background_image2{
+    margin: 0 0 50px 0;
+    font-size: 30px;
+    background: url(../img/sone.jpeg) center / cover no-repeat;    
+}
+.background_image2 p{
+    opacity: 0.4;
+}
+
+.background_position{
+    margin: 0 0 60px 0;
+    padding: 50px 70px;
+    color: #ffffff;    
+    max-height: 500px;
+    background-color: darkgray;
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.blok{
+    margin: 0 0 50px 0;
+    height: 500px;
+    background-color: #ffffff;
+    background-image: url(../img/good.jpg),url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: left,right;
+    background-size: 50%, auto 500px;
+}
+
+    

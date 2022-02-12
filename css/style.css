@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    font-family: "Balsamiq Sans", cursive ;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 20px;
+    
+}
+.content {
+    max-width: 1600px;
+    margin: 0 auto; 
+    background: url(../img/glossy.jpg) center / 1600px no-repeat fixed;   
+}
+.content__title{ 
+    margin: 0 0 50px 0;
+    border-radius: 20px;    
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(82, 35, 72);    
+    background: url(../img/pytan.png) 0 0 / 30px repeat;  
+    box-shadow: inset 5px 10px 70px 2px rgba(20, 20, 20, 0.52);
+    
+}
+.content__image{
+    display: block;
+    margin: 0 auto 45px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+}
+.content__subtitle4,
+.content__subtitle3,
+.content__subtitle2,
+.content__subtitle{
+    font-family:"Pacifico",cursive ;
+    font-size: 40px;
+    margin: 0 40px 90px 40px;
+    padding: 0 40px;        
+}
+.text_span{
+    color: rgb(139, 13, 80);    
+}
+.content__text{
+    margin: 0 0 50px 0;
+    text-indent: 30px;
+    background: cornsilk url(../img/smail.jpeg) right bottom / 130px no-repeat;
+    text-align: justify;
+    border: 3px dashed chocolate;
+}
+
+.content__subtitle3,
+.content__subtitle2{    
+    color: rgb(246, 8, 8);
+    text-shadow: 4px 6px 5px rgba(245, 66, 66, 0.459);
+}
+.content__text2{
+    margin: 0 0 50px 0;
+    background: rgba(222, 253, 137, 0.226) url(../img/images.jpeg) left top / 100px no-repeat ;
+    border: 3px solid rgba(41, 66, 110, 0.637);
+    padding: 70px 0 0 100px;
+    border: 3px dotted rgb(9, 63, 149);
+    text-indent: 50px;
+    text-align: justify;    
+    color: rgb(106, 132, 245);
+    max-height: 250px;
+    overflow: auto;
+}
+.content__text2 ul {
+    text-indent: 0;
+}
+.list_item{
+    background: rgba(255, 248, 220, 0.63) url(../img/list.png) 3px 0 / 30px no-repeat;
+    padding: 0 0 0 35px;
+    min-height: 30px;
+}
+
+.content__subtitle3{
+    text-align: right;
+    text-decoration: underline rgb(228, 131, 207);
+}
+.content__text3{
+    margin: 0 0 50px 0;
+    color: blue;    
+    background: cornsilk url(../img/imagesmal.jpeg) left / 200px repeat-x ;
+    border: 3px solid rgba(41, 66, 110, 0.637);
+    text-shadow: 6px 6px 3px rgba(165, 193, 238, 0.678);
+    box-shadow: inset 2px 4px 15px 4px rgb(95, 120, 160);
+    
+}
+
+.content__text3>p{
+    padding: 0 0 95px 0;
+    border-bottom: 5px dashed crimson;
+}
+
+.content__subtitle4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 4px 3px #ffffff;
+    font-style: oblique;
+    background: radial-gradient(circle, rgba(27,6,43,0.8155637254901961) 0%, rgba(65,45,253,0.40940126050420167) 48%);
+}
+.content__text4{
+    background: url(../img/outerspace.gif) 0 0/ cover  no-repeat ;
+    line-height: 1.8;
+    padding: 0 25px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;    
+    text-align: justify;
+    border-radius: 25px;
+    color: rgb(112, 106, 106);
+    text-shadow: 2px 4px 3px #ffffff;
+
+}
+.footer{
+    margin: 0 40px 20px 0;
+    text-align: right;
+    text-decoration: underline  rgb(8, 27, 71);
+    text-shadow: 2px 1px 5px;
+    font-weight: 700;
+    font-size: 30px;
+}
